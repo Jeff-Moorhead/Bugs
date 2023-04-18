@@ -26,7 +26,7 @@ const bugs: Bug[] = [
 ];
 
 // define a route handler for the default home page
-app.get( "/", ( req, res) => {
+app.get( "/", (req, res) => {
     res.json( bugs );
 } );
 
